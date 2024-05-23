@@ -11,16 +11,18 @@ Soft Magenta: hsl(300, 69%, 71%)
 
 body {
   background-color: hsl(257, 40%, 49%);
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   color: #ffffff;
 }
 
 .container-main {
   width: 90%;
   height: 100%;
+  border: solid yellow;
 }
 
 header img {
@@ -30,7 +32,6 @@ header img {
 
 /* hero: */
 .container-img-hero {
-  /* border: solid red; */
 }
 
 .container-img-hero img {
@@ -39,4 +40,5 @@ header img {
 /* info: */
 .container-info h2 {
   text-transform: capitalize;
+  border: solid red;
 }
