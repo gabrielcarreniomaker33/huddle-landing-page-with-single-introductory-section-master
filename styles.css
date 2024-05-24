@@ -25,6 +25,10 @@ body {
   border: solid yellow;
   font-size: 16px;
   line-height: 1.5; /* Espaciado entre líneas para mejorar la legibilidad */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.4rem;
 }
 
 header img {
@@ -63,4 +67,24 @@ header img {
   text-transform: capitalize;
   width: 70%;
   margin: 0.5rem 0;
+}
+
+footer {
+  border: solid greenyellow;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.container-facebook {
+  border: solid seagreen;
+}
+
+.container-twitter {
+  border: solid black;
+}
+
+.container-instagram {
+  border: solid gold;
 }
